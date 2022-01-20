@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5a9803318f.js" crossorigin="anonymous"></script>
+    <title>Real Estate Design</title>
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo_white.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">OFFERS</a></li>
+                    <li><a href="">BLOGS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="textbox">
+
+            <h1>Firm You Can Trust</h1>
+            <p>Now you can buy a house with a click of a button!</p>
+            <a href="" class="hero-btn">Contact Us For Further Information</a>
+        
+        </div>
+    </section>
+
+<!-- Course -->
+    <section class="offers">
+        <h1>Our Offers</h1>
+        <p>We have variety of offers to choose from!</p>
+
+        <div class="row">
+            <div class="offer-col">
+                <h3>Houses</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis elit vitae ligula faucibus condimentum. Nam pharetra tempus aliquet. Integer lacinia ultrices hendrerit. Nam a sodales elit. Curabitur tincidunt enim urna, eu scelerisque diam ornare at. Aenean bibendum urna suscipit fringilla ullamcorper.</p>
+            </div>
+            <div class="offer-col">
+                <h3>Apartments</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis elit vitae ligula faucibus condimentum. Nam pharetra tempus aliquet. Integer lacinia ultrices hendrerit. Nam a sodales elit. Curabitur tincidunt enim urna, eu scelerisque diam ornare at. Aenean bibendum urna suscipit fringilla ullamcorper.</p>
+            </div>
+            <div class="offer-col">
+                <h3>Offices</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis elit vitae ligula faucibus condimentum. Nam pharetra tempus aliquet. Integer lacinia ultrices hendrerit. Nam a sodales elit. Curabitur tincidunt enim urna, eu scelerisque diam ornare at. Aenean bibendum urna suscipit fringilla ullamcorper.</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="headquarters">
+        <h1>Headquarters</h1>
+        <p>See where you can reach us the closest!</p>
+
+        <div class="row">
+            <div class="headquarters-col">
+                <img src="images/ulaanbaatar.jpg">
+                <div class="layer">
+                    <h3>ULAANBAATAR</h3>
+                </div>
+            </div>
+            <div class="headquarters-col">
+                <img src="images/san_francisco.jpg">
+                <div class="layer">
+                    <h3>SAN FRANCISCO</h3>
+                </div>
+            </div>
+            <div class="headquarters-col">
+                <img src="images/beijing.jpg">
+                <div class="layer">
+                    <h3>BEIJING</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="whyUs">
+        <h1>Why Us?</h1>
+        <p>We offer the best options customized for YOU</p>
+
+        <div class="row">
+            <div class="whyUs-col">
+                <img src="images/cheap.jpg">
+                <h3>Cheapest Prices</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis elit vitae ligula faucibus condimentum.</p>
+            </div>
+            <div class="whyUs-col">
+                <img src="images/fast.jpg">
+                <h3>Fast Services</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis elit vitae ligula faucibus condimentum.</p>
+            </div>
+            <div class="whyUs-col">
+                <img src="images/customer.jpg">
+                <h3>Customer Care</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis elit vitae ligula faucibus condimentum.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+<!-- JS -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+<!-- Reviews -->
+
+<section class="reviews">
+    <h1>Our Customer Reviews</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis elit vitae ligula faucibus condimentum.</p>
+
+    <div class="row">
+        <div class="reviews-col">
+            <img src="images/person_1.jpg" alt="">
+            <div>
+                <p>The best company there is! Even better than SpaceX?</p>
+                <h3>Father of X Æ A-12</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="reviews-col">
+            <img src="images/person_2.jpg" alt="">
+            <div>
+                <p>I just invested all my money into this company!</p>
+                <h3>The Oracle of Omaha</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="reviews-col">
+            <img src="images/person_3.jpg" alt="">
+            <div>
+                <p>I think this company will make Mongolia great again!</p>
+                <h3>Bronze Axe</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis elit vitae ligula faucibus condimentum. <br> pharetra tempus aliquet. Integer lacinia ultrices hendrerit. Nam a sodales elit. Curabitur tincidunt enim urna, eu scelerisque diam ornare at. <br> Aenean bibendum urna suscipit fringilla ullamcorper.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-twitter"></i>
+    </div>
+    <p>Made by Anand</p>
+</section>
+
+</body>
+</html>
